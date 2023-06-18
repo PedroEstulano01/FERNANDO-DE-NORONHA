@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  img{
+    width: 100%;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+  }
+
+  p {
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+  }
+
+  /* Estilos para o cabeçalho */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .nav {
+    display: flex;
+    gap: 10px;
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  .nav a:hover {
+    color: rgb(236, 17, 17)
+  }
+
+  /* Estilos para a seção "Sobre Nós" */
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .about-img {
+    flex: 1;
+    max-width: 400px;
+  }
+
+  .about-text {
+    flex: 1;
+  }
+
+  /* Estilos para o rodapé */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+  }
